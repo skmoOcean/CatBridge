@@ -14,7 +14,7 @@
 <h2 align="center">CatBridge</h2>
 
   <p align="center">
-    This tool will bridge the gap between Clangen by SableSteel and CatGen by nimaereth.
+    This tool bridges the gap between Clangen by SableSteel and CatGen by nimaereth.
   </p>
 </div>
 
@@ -58,22 +58,30 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Make sure you have created and saved a clan in ClanGen.
+
+Make sure you have created some cats in CatGen and exported the JSON for them.
+
+<!-- INSTRUCTIONS -->
+## Instructions
+
 1. Run the CatBridge jar file.
    
 2. In the first field, browse to or enter the path to CatGen's "savedcats" folder.
 
-3. In the second field, browse to or enter the path to the Clangen clan's clan_cats file (generally in Clangen/saves/<clanname>/clan_cats.json).
+3. In the second field, browse to or enter the path to the ClanGen clan's clan_cats file (generally in ClanGen\saves\\<clanname\>\clan_cats.json).
 
-4. In the third field, browse to or enter the path to the Clangen clan's save file (generally in Clangen/saves/<clanname>clan.json).
+4. In the third field, browse to or enter the path to the ClanGen clan's save file (generally in ClanGen\saves\\<clanname\>clan.json).
 
 5. Click Submit. You should see green text saying "Completed". If it says nothing, or says "Failed" then double-check that the paths you specified are accurate. If your paths are correct and you are still getting an error, feel free to raise an issue on the CatBridge Github page.
 
-NOTE: Your Clangen saves folder may be stored in C:\Users\<yourusername>\AppData\Local\ClanGen\ClanGen
+6. Profit.
+
+NOTE: Your ClanGen saves folder may be stored in "C:\Users\\<your username\>\AppData\Local\ClanGen\ClanGen"
 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * <a href="https://github.com/ClanGenOfficial/clangen">ClanGen</a>
 * <a href="https://github.com/nimaereth/CatGen">CatGen</a>
 * <a href="https://www.java.com/download/ie_manual.jsp">Java 8</a>
