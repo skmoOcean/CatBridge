@@ -11,7 +11,11 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h2 align="center">CatBridge</h2>
+<div align="center">
+  <a href="https://github.com/skmoOcean/CatBridge">
+    <img src="https://i.imgur.com/iOxltZU.png" alt="Logo" width="256" height="256">
+  </a>
+<h1 align="center">CatBridge</h1>
 
   <p align="center">
     This tool bridges the gap between Clangen by SableSteel and CatGen by nimaereth.
