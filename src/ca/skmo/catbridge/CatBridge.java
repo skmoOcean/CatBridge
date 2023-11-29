@@ -12,6 +12,7 @@ public class CatBridge {
 
 	public static void main(String[] args) {
 		CatFrame frame = new CatFrame();
+		
 	}
 
 }

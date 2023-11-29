@@ -111,7 +111,14 @@ public class CatFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// Open folder explorer
-				JFileChooser fileChooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+				File defaultClanCatsPath = new File(System.getenv("LOCALAPPDATA") + "\\ClanGen\\ClanGen\\saves\\");
+				JFileChooser fileChooser = null;
+				if (defaultClanCatsPath.exists() && defaultClanCatsPath.isDirectory()) {
+					fileChooser = new JFileChooser(defaultClanCatsPath);
+				} else {
+					fileChooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+				}
+				
 				fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 				int returnValue = fileChooser.showDialog(null, "Select Clan Cats File");
 				
@@ -144,7 +151,14 @@ public class CatFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// Open folder explorer
-				JFileChooser fileChooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+				File defaultClanSavePath = new File(System.getenv("LOCALAPPDATA") + "\\ClanGen\\ClanGen\\saves\\");
+				JFileChooser fileChooser = null;
+				if (defaultClanSavePath.exists() && defaultClanSavePath.isDirectory()) {
+					fileChooser = new JFileChooser(defaultClanSavePath);
+				} else {
+					fileChooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+				}
+				
 				fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 				int returnValue = fileChooser.showDialog(null, "Select Clan Save File");
 				
