@@ -13,7 +13,7 @@
 
 <div align="center">
   <a href="https://github.com/skmoOcean/CatBridge">
-    <img src="https://i.imgur.com/iOxltZU.png" alt="Logo" width="256" height="256">
+    <img src="https://i.imgur.com/iOxltZU.png" alt="Logo" width="128" height="128">
   </a>
 <h1 align="center">CatBridge</h1>
 
