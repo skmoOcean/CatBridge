@@ -54,13 +54,13 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 Make sure you have created and saved a clan in ClanGen.
 
 Make sure you have created some cats in CatGen and exported the JSON for them.
+
 
 <!-- INSTRUCTIONS -->
 ## Instructions
@@ -85,7 +85,6 @@ NOTE: Your ClanGen saves folder may be stored in "C:\Users\\<your username\>\App
 * <a href="https://github.com/ClanGenOfficial/clangen">ClanGen</a>
 * <a href="https://github.com/nimaereth/CatGen">CatGen</a>
 * <a href="https://www.java.com/download/ie_manual.jsp">Java 8</a>
-
 
 
 <!-- LICENSE -->
